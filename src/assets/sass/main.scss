@@ -433,6 +433,7 @@
 		&.fit {
 			display: block;
 			width: 100%;
+      height: 50%;
 		}
 
 		&.featured {
@@ -692,6 +693,7 @@
 
 			.image {
 				position: relative;
+        height: inherit;
 				left: 2em;
 				top: 2em;
 				margin: -4em 0 4em -4em;
@@ -745,10 +747,11 @@
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
+    height: 100vh;
 
 		&.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: rgb(71, 169, 199);
 		}
 
 		&.style2 {
@@ -762,7 +765,7 @@
 		}
 
 		&.style4 {
-			background-color: #303030;
+			background-color: #74dbe2;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 
@@ -860,7 +863,7 @@
 
 		.image {
 			border-radius: 100%;
-			width: 20em;
+			width: 30em;
 			height: 20em;
 			margin: 0;
 
@@ -947,6 +950,8 @@
 			.wrapper {
 				padding: 5em 0 5em 0;
 				text-align: center;
+    height: 100vh;
+
 
 				&.style4 {
 					.row-special {
@@ -962,7 +967,7 @@
 				padding: 8em 0;
 
 				.image {
-					width: 24em;
+					width: 30em;
 					height: 24em;
 					margin: 0;
 				}
@@ -1132,6 +1137,8 @@
 			.wrapper {
 				padding: 3em 0;
 				text-align: center;
+    height: 100vh;
+
 			}
 
 		/* Nav */
